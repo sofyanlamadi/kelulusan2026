@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Web</title>
+    <style>
+        /* Menghapus margin bawaan halaman */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; 
+            background-color: #ffffff;
+        }
+
+        /* Wadah iframe diposisikan normal menutupi seluruh layar */
+        .iframe-container {
+            position: absolute;
+            top: 0; 
+            left: 0;
+            width: 100%;
+            height: 100%; 
+        }
+
+        /* Pengaturan bingkai aplikasi */
+        .iframe-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="iframe-container">
+        <iframe src="https://script.google.com/macros/s/AKfycbzHhOHaA7ed-RWTV8E86OZqUFsMQ6scDjsTLRljY-XxMm99w9EOpKsIgcGNs8thUO7A/exec"></iframe>
+    </div>
+</body>
+</html>
